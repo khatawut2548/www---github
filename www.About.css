@@ -1,0 +1,134 @@
+body {   
+    width: 80%;
+    background-color: #ecffff;
+    margin: 0px auto; 
+    height: -webkit-fill-available; 
+}
+.yu {
+    border-style: outset;
+    background-color: #faffff;
+}
+.de {
+    background-image: linear-gradient(rgb(12, 106, 111), rgba(23, 167, 169, 0.671));
+    font-size: 30px;
+    font-weight: bold;
+}
+.contanier {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ds {
+    display: flex;
+    font-size: 2rem;
+    color: #faffff;
+    text-decoration: none; 
+}
+.fdf {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #28a5a7;
+  }
+  ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 30px;
+    text-align: left;
+  }
+  ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  ul li a:hover{
+    color: #fff;
+    background: #000000;
+  }
+  ul li ul.dropdown{
+    width: 135%;
+    background: #454545;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0%;
+    padding: 0;
+  }
+  ul li:hover ul.dropdown{
+    display: block;	
+  }
+  ul li ul.dropdown li{
+    display: block;
+  }
+  .ol {
+    color: #fffefe;
+    display: flex;
+}
+.id {
+    display: flex;
+    height: 80px;
+    height: 80px;
+}
+.y1 {
+    border-style: outset;
+}
+.p1 {
+    width: 90%;
+}
+.p3 {
+    display: flex;
+    background-color: rgba(237, 237, 237, 0.984);
+    justify-content: center;
+}
+.k1 { 
+    color: #070707;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+} 
+.jh {
+    text-align: center;
+    color: #faffff;
+}
+.uo {
+    
+    background-color: #ededed;
+}
+.d {
+    border-style: outset;
+    background-image: linear-gradient(rgb(12, 106, 111), rgba(15, 118, 120, 0.671));
+}
+.double_line {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+.l2 {
+    display: flex;
+    align-items: center;
+}
+.btn-1:hover {
+    transform: translate(-12px, -12px);
+}
+.btn-1::after, .btn-1 ::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    background: #080808;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+}
+.d3 {
+    text-align: center;
+}
+.ff6 {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-evenly;
+}
